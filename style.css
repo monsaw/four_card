@@ -1,0 +1,127 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+  font-family:sans-serif;
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(229, 6%, 66%);
+
+}
+.head{
+  font-weight: 200;
+  color: hsl(229, 6%, 66%);
+}
+
+.break{
+    width: 50%;
+    margin: 0px auto;
+}
+.session-one {
+  text-align: center;
+}
+
+.group-one , .group-two ,.group-three {
+
+    width: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    
+    margin: 20px;
+    
+    
+}
+.group-one , .group-three {
+    background-color: white;
+    margin: 20px;
+    box-shadow: 5px 5px 5px 5px hsl(229, 6%, 66%);
+    position: relative;
+    bottom: 140px;
+}
+
+.group-two-one , .group-two-two{
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px   hsl(229, 6%, 66%);
+    
+}
+
+.group-two{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    text-align: center;
+}
+
+h3,.text{
+    text-align: left;
+    margin: 20px;
+    
+}
+h3,h2{
+    color: black;
+}
+
+hr{
+margin-top: 0px;
+height: 5px;
+
+}
+.hr-cray{
+    background-color: hsl(180, 62%, 55%);
+}
+.hr-red{
+    background-color: hsl(0, 78%, 62%);
+}
+.hr-orange{
+    background-color: hsl(34, 97%, 64%);
+}
+.hr-blue{
+    background-color: hsl(212, 86%, 64%);
+}
+
+img{
+    position: relative;
+    left : 70px;
+    margin: 30px;
+    
+}
+
+@media (max-width : 768px) {
+    .group-one {
+        position: static;
+        display: block;
+        margin: 0 auto;
+    }
+    .group-three{
+        position: static;
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+    }
+    .group-two{
+    
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+   
+    
+    .session-one{
+        margin: 0px auto;
+        text-align: center;
+    }
+    body{
+        text-align: center;
+    }
+    .break{
+        margin-bottom: 80px;
+        width: 90%;
+        text-align: left;
+    }
+
+    .attribution{
+        margin: 40px;
+    }
+}
