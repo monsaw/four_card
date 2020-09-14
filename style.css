@@ -7,7 +7,7 @@ body{
 
 }
 .head{
-  font-weight: 200;
+  font-weight: 400;
   color: hsl(229, 6%, 66%);
 }
 
@@ -88,7 +88,7 @@ img{
     
 }
 
-@media (max-width : 768px) {
+@media (max-width : 1004px) {
     .group-one {
         position: static;
         display: block;
